@@ -1,0 +1,1 @@
+/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/ros2_module/scripts/ros2_example.py

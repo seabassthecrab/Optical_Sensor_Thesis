@@ -1,0 +1,1 @@
+/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand/rosidl_cmake/srv/LeapEffort_Response.msg

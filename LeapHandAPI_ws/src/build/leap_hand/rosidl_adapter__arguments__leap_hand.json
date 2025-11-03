@@ -1,0 +1,9 @@
+{
+  "package_name": "leap_hand",
+  "non_idl_tuples": [
+    "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/ros2_module:srv/LeapVelocity.srv",
+    "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/ros2_module:srv/LeapPosition.srv",
+    "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/ros2_module:srv/LeapEffort.srv",
+    "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/ros2_module:srv/LeapPosVelEff.srv"
+  ]
+}

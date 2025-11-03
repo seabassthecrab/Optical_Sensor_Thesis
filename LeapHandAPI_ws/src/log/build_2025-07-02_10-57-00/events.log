@@ -1,0 +1,348 @@
+[0.000000] (-) TimerEvent: {}
+[0.000251] (leap_hand) JobQueued: {'identifier': 'leap_hand', 'dependencies': OrderedDict()}
+[0.000463] (leap_hand) JobStarted: {'identifier': 'leap_hand'}
+[0.009900] (leap_hand) JobProgress: {'identifier': 'leap_hand', 'progress': 'cmake'}
+[0.010192] (leap_hand) Command: {'cmd': ['/usr/bin/cmake', '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/ros2_module', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand'], 'cwd': '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', 'false'), ('USER', 'hikikomori'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('HOME', '/home/hikikomori'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hikikomori'), ('OSH', '/home/hikikomori/.oh-my-bash'), ('POSH_SESSION_ID', 'bb12db4b-d21b-43c9-8a68-064850424125'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hikikomori'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('POSH_SHELL_VERSION', '5.1.16(1)-release'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hikikomori/anaconda3/condabin:/opt/ros/humble/bin:/home/hikikomori/.cargo/bin:/home/hikikomori/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hikikomori:@/tmp/.ICE-unix/2478,unix/hikikomori:/tmp/.ICE-unix/2478'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1b76007c_fecb_4347_a16d_c8fc45ed0f77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.13V182'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hikikomori/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('PYENV_VIRTUALENV_DISABLE_PROMPT', '1'), ('GDMSESSION', 'ubuntu'), ('OSTYPE', 'linux-gnu'), ('QT_IM_MODULE', 'ibus'), ('POSH_THEME', '/home/hikikomori/.cache/oh-my-posh/config.8aa6e5d9a2ef2bcd58b0da90e65127d492dad081e0fcb53fcefeb219568fbcbb.omp.json'), ('PWD', '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hikikomori/anaconda3/bin/conda'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('POSH_SHELL', 'bash'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099885] (-) TimerEvent: {}
+[0.105844] (leap_hand) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200011] (-) TimerEvent: {}
+[0.200289] (leap_hand) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.211468] (leap_hand) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.269666] (leap_hand) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.276564] (leap_hand) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.277114] (leap_hand) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.277841] (leap_hand) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.281399] (leap_hand) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300117] (-) TimerEvent: {}
+[0.345975] (leap_hand) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.353035] (leap_hand) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.353199] (leap_hand) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.353654] (leap_hand) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.358439] (leap_hand) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400236] (-) TimerEvent: {}
+[0.494612] (leap_hand) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500436] (-) TimerEvent: {}
+[0.565697] (leap_hand) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.600622] (-) TimerEvent: {}
+[0.602348] (leap_hand) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.605061] (leap_hand) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.650653] (leap_hand) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.656421] (leap_hand) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.666977] (leap_hand) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.683816] (leap_hand) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700806] (-) TimerEvent: {}
+[0.703565] (leap_hand) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.737880] (leap_hand) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.800999] (-) TimerEvent: {}
+[0.901302] (-) TimerEvent: {}
+[1.001620] (-) TimerEvent: {}
+[1.012344] (leap_hand) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.101811] (-) TimerEvent: {}
+[1.202101] (-) TimerEvent: {}
+[1.302389] (-) TimerEvent: {}
+[1.337567] (leap_hand) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.402601] (-) TimerEvent: {}
+[1.463783] (leap_hand) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.483589] (leap_hand) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.485198] (leap_hand) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.502775] (-) TimerEvent: {}
+[1.509752] (leap_hand) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.509820] (leap_hand) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.509849] (leap_hand) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.509873] (leap_hand) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.528388] (leap_hand) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.587754] (leap_hand) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.602953] (-) TimerEvent: {}
+[1.619626] (leap_hand) StdoutLine: {'line': b'-- Generating done\n'}
+[1.628816] (leap_hand) StdoutLine: {'line': b'-- Build files have been written to: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand\n'}
+[1.635251] (leap_hand) CommandEnded: {'returncode': 0}
+[1.635821] (leap_hand) JobProgress: {'identifier': 'leap_hand', 'progress': 'build'}
+[1.635881] (leap_hand) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand', '--', '-j20', '-l20'], 'cwd': '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', 'false'), ('USER', 'hikikomori'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('HOME', '/home/hikikomori'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hikikomori'), ('OSH', '/home/hikikomori/.oh-my-bash'), ('POSH_SESSION_ID', 'bb12db4b-d21b-43c9-8a68-064850424125'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hikikomori'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('POSH_SHELL_VERSION', '5.1.16(1)-release'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hikikomori/anaconda3/condabin:/opt/ros/humble/bin:/home/hikikomori/.cargo/bin:/home/hikikomori/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hikikomori:@/tmp/.ICE-unix/2478,unix/hikikomori:/tmp/.ICE-unix/2478'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1b76007c_fecb_4347_a16d_c8fc45ed0f77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.13V182'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hikikomori/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('PYENV_VIRTUALENV_DISABLE_PROMPT', '1'), ('GDMSESSION', 'ubuntu'), ('OSTYPE', 'linux-gnu'), ('QT_IM_MODULE', 'ibus'), ('POSH_THEME', '/home/hikikomori/.cache/oh-my-posh/config.8aa6e5d9a2ef2bcd58b0da90e65127d492dad081e0fcb53fcefeb219568fbcbb.omp.json'), ('PWD', '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hikikomori/anaconda3/bin/conda'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('POSH_SHELL', 'bash'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.666310] (leap_hand) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.674543] (leap_hand) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.681314] (leap_hand) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_leap_hand\n'}
+[1.703150] (-) TimerEvent: {}
+[1.803479] (-) TimerEvent: {}
+[1.903721] (-) TimerEvent: {}
+[1.908319] (leap_hand) StdoutLine: {'line': b'running egg_info\n'}
+[1.908992] (leap_hand) StdoutLine: {'line': b'creating leap_hand.egg-info\n'}
+[1.909074] (leap_hand) StdoutLine: {'line': b'writing leap_hand.egg-info/PKG-INFO\n'}
+[1.909209] (leap_hand) StdoutLine: {'line': b'writing dependency_links to leap_hand.egg-info/dependency_links.txt\n'}
+[1.909387] (leap_hand) StdoutLine: {'line': b'writing top-level names to leap_hand.egg-info/top_level.txt\n'}
+[1.909579] (leap_hand) StdoutLine: {'line': b"writing manifest file 'leap_hand.egg-info/SOURCES.txt'\n"}
+[1.912321] (leap_hand) StdoutLine: {'line': b"reading manifest file 'leap_hand.egg-info/SOURCES.txt'\n"}
+[1.912867] (leap_hand) StdoutLine: {'line': b"writing manifest file 'leap_hand.egg-info/SOURCES.txt'\n"}
+[1.937065] (leap_hand) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_leap_hand_egg\n'}
+[1.966129] (leap_hand) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_generator_c.dir/rosidl_generator_c/leap_hand/srv/detail/leap_pos_vel_eff__functions.c.o\x1b[0m\n'}
+[1.967712] (leap_hand) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_generator_c.dir/rosidl_generator_c/leap_hand/srv/detail/leap_position__functions.c.o\x1b[0m\n'}
+[1.967790] (leap_hand) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_generator_c.dir/rosidl_generator_c/leap_hand/srv/detail/leap_velocity__functions.c.o\x1b[0m\n'}
+[1.968028] (leap_hand) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_generator_c.dir/rosidl_generator_c/leap_hand/srv/detail/leap_effort__functions.c.o\x1b[0m\n'}
+[2.003953] (-) TimerEvent: {}
+[2.025732] (leap_hand) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libleap_hand__rosidl_generator_c.so\x1b[0m\n'}
+[2.059995] (leap_hand) StdoutLine: {'line': b'[ 12%] Built target leap_hand__rosidl_generator_c\n'}
+[2.070226] (leap_hand) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.070491] (leap_hand) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.070535] (leap_hand) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.104056] (-) TimerEvent: {}
+[2.118688] (leap_hand) StdoutLine: {'line': b'[ 18%] Built target leap_hand__cpp\n'}
+[2.124952] (leap_hand) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.125090] (leap_hand) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.127051] (leap_hand) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.204190] (-) TimerEvent: {}
+[2.304545] (-) TimerEvent: {}
+[2.336206] (leap_hand) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/leap_hand/srv/leap_pos_vel_eff__type_support.cpp.o\x1b[0m\n'}
+[2.336368] (leap_hand) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/leap_hand/srv/leap_effort__type_support.cpp.o\x1b[0m\n'}
+[2.337851] (leap_hand) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/leap_hand/srv/leap_position__type_support.cpp.o\x1b[0m\n'}
+[2.338204] (leap_hand) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/leap_hand/srv/leap_velocity__type_support.cpp.o\x1b[0m\n'}
+[2.375828] (leap_hand) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/leap_hand/srv/detail/leap_velocity__type_support_c.cpp.o\x1b[0m\n'}
+[2.376060] (leap_hand) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/leap_hand/srv/detail/leap_pos_vel_eff__type_support_c.cpp.o\x1b[0m\n'}
+[2.378643] (leap_hand) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/leap_hand/srv/detail/leap_effort__type_support_c.cpp.o\x1b[0m\n'}
+[2.378882] (leap_hand) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/leap_hand/srv/detail/leap_position__type_support_c.cpp.o\x1b[0m\n'}
+[2.396561] (leap_hand) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/leap_hand/srv/detail/leap_velocity__type_support.cpp.o\x1b[0m\n'}
+[2.396883] (leap_hand) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/leap_hand/srv/detail/leap_pos_vel_eff__type_support.cpp.o\x1b[0m\n'}
+[2.398106] (leap_hand) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/leap_hand/srv/detail/leap_position__type_support.cpp.o\x1b[0m\n'}
+[2.399630] (leap_hand) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/leap_hand/srv/detail/leap_effort__type_support.cpp.o\x1b[0m\n'}
+[2.404647] (-) TimerEvent: {}
+[2.406930] (leap_hand) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_c.dir/rosidl_typesupport_c/leap_hand/srv/leap_velocity__type_support.cpp.o\x1b[0m\n'}
+[2.407103] (leap_hand) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_c.dir/rosidl_typesupport_c/leap_hand/srv/leap_effort__type_support.cpp.o\x1b[0m\n'}
+[2.407180] (leap_hand) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_c.dir/rosidl_typesupport_c/leap_hand/srv/leap_pos_vel_eff__type_support.cpp.o\x1b[0m\n'}
+[2.407246] (leap_hand) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_c.dir/rosidl_typesupport_c/leap_hand/srv/leap_position__type_support.cpp.o\x1b[0m\n'}
+[2.407316] (leap_hand) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/leap_hand/srv/detail/dds_fastrtps/leap_position__type_support.cpp.o\x1b[0m\n'}
+[2.407437] (leap_hand) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/leap_hand/srv/detail/dds_fastrtps/leap_velocity__type_support.cpp.o\x1b[0m\n'}
+[2.407856] (leap_hand) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/leap_hand/srv/detail/dds_fastrtps/leap_effort__type_support.cpp.o\x1b[0m\n'}
+[2.435765] (leap_hand) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/leap_hand__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/leap_hand/srv/detail/dds_fastrtps/leap_pos_vel_eff__type_support.cpp.o\x1b[0m\n'}
+[2.440672] (leap_hand) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libleap_hand__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.488487] (leap_hand) StdoutLine: {'line': b'[ 61%] Built target leap_hand__rosidl_typesupport_c\n'}
+[2.506336] (-) TimerEvent: {}
+[2.530425] (leap_hand) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leap_hand/srv/detail/leap_position__type_support.c.o\x1b[0m\n'}
+[2.530636] (leap_hand) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leap_hand/srv/detail/leap_velocity__type_support.c.o\x1b[0m\n'}
+[2.530837] (leap_hand) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leap_hand/srv/detail/leap_pos_vel_eff__type_support.c.o\x1b[0m\n'}
+[2.532619] (leap_hand) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leap_hand/srv/detail/leap_effort__type_support.c.o\x1b[0m\n'}
+[2.581669] (leap_hand) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libleap_hand__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.606473] (-) TimerEvent: {}
+[2.619684] (leap_hand) StdoutLine: {'line': b'[ 70%] Built target leap_hand__rosidl_typesupport_introspection_c\n'}
+[2.645598] (leap_hand) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libleap_hand__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.676177] (leap_hand) StdoutLine: {'line': b'[ 72%] Built target leap_hand__rosidl_typesupport_cpp\n'}
+[2.706604] (-) TimerEvent: {}
+[2.806079] (leap_hand) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libleap_hand__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.806699] (-) TimerEvent: {}
+[2.862957] (leap_hand) StdoutLine: {'line': b'[ 74%] Built target leap_hand__rosidl_typesupport_fastrtps_c\n'}
+[2.875263] (leap_hand) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libleap_hand__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.897953] (leap_hand) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libleap_hand__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.906799] (-) TimerEvent: {}
+[2.940012] (leap_hand) StdoutLine: {'line': b'[ 78%] Built target leap_hand__rosidl_typesupport_introspection_cpp\n'}
+[2.964230] (leap_hand) StdoutLine: {'line': b'[ 78%] Built target leap_hand__rosidl_typesupport_fastrtps_cpp\n'}
+[2.979828] (leap_hand) StdoutLine: {'line': b'[ 78%] Built target leap_hand\n'}
+[2.996069] (leap_hand) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.006910] (-) TimerEvent: {}
+[3.107174] (-) TimerEvent: {}
+[3.207488] (-) TimerEvent: {}
+[3.307761] (-) TimerEvent: {}
+[3.407974] (-) TimerEvent: {}
+[3.508202] (-) TimerEvent: {}
+[3.608448] (-) TimerEvent: {}
+[3.661266] (leap_hand) StdoutLine: {'line': b'[ 80%] Built target leap_hand__py\n'}
+[3.677210] (leap_hand) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_generator_py.dir/rosidl_generator_py/leap_hand/srv/_leap_position_s.c.o\x1b[0m\n'}
+[3.677430] (leap_hand) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_generator_py.dir/rosidl_generator_py/leap_hand/srv/_leap_effort_s.c.o\x1b[0m\n'}
+[3.677544] (leap_hand) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_generator_py.dir/rosidl_generator_py/leap_hand/srv/_leap_velocity_s.c.o\x1b[0m\n'}
+[3.677865] (leap_hand) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_generator_py.dir/rosidl_generator_py/leap_hand/srv/_leap_pos_vel_eff_s.c.o\x1b[0m\n'}
+[3.708601] (-) TimerEvent: {}
+[3.795741] (leap_hand) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/leap_hand/libleap_hand__rosidl_generator_py.so\x1b[0m\n'}
+[3.808695] (-) TimerEvent: {}
+[3.833094] (leap_hand) StdoutLine: {'line': b'[ 89%] Built target leap_hand__rosidl_generator_py\n'}
+[3.849177] (leap_hand) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/leap_hand/_leap_hand_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.849847] (leap_hand) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/leap_hand/_leap_hand_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.849998] (leap_hand) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/leap_hand__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/leap_hand/_leap_hand_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.908829] (-) TimerEvent: {}
+[3.934569] (leap_hand) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/leap_hand/leap_hand_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.950708] (leap_hand) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/leap_hand/leap_hand_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.950906] (leap_hand) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/leap_hand/leap_hand_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.966936] (leap_hand) StdoutLine: {'line': b'[100%] Built target leap_hand__rosidl_typesupport_c__pyext\n'}
+[3.985649] (leap_hand) StdoutLine: {'line': b'[100%] Built target leap_hand__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.986200] (leap_hand) StdoutLine: {'line': b'[100%] Built target leap_hand__rosidl_typesupport_introspection_c__pyext\n'}
+[3.996661] (leap_hand) CommandEnded: {'returncode': 0}
+[3.997199] (leap_hand) JobProgress: {'identifier': 'leap_hand', 'progress': 'install'}
+[4.004199] (leap_hand) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand'], 'cwd': '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', 'false'), ('USER', 'hikikomori'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('HOME', '/home/hikikomori'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hikikomori'), ('OSH', '/home/hikikomori/.oh-my-bash'), ('POSH_SESSION_ID', 'bb12db4b-d21b-43c9-8a68-064850424125'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hikikomori'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('POSH_SHELL_VERSION', '5.1.16(1)-release'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hikikomori/anaconda3/condabin:/opt/ros/humble/bin:/home/hikikomori/.cargo/bin:/home/hikikomori/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hikikomori:@/tmp/.ICE-unix/2478,unix/hikikomori:/tmp/.ICE-unix/2478'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1b76007c_fecb_4347_a16d_c8fc45ed0f77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.13V182'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hikikomori/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('PYENV_VIRTUALENV_DISABLE_PROMPT', '1'), ('GDMSESSION', 'ubuntu'), ('OSTYPE', 'linux-gnu'), ('QT_IM_MODULE', 'ibus'), ('POSH_THEME', '/home/hikikomori/.cache/oh-my-posh/config.8aa6e5d9a2ef2bcd58b0da90e65127d492dad081e0fcb53fcefeb219568fbcbb.omp.json'), ('PWD', '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hikikomori/anaconda3/bin/conda'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('POSH_SHELL', 'bash'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.008941] (-) TimerEvent: {}
+[4.011236] (leap_hand) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.011750] (leap_hand) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.011940] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/ament_index/resource_index/rosidl_interfaces/leap_hand\n'}
+[4.018665] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.025007] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_effort__functions.h\n'}
+[4.031764] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_effort__struct.h\n'}
+[4.038344] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_effort__type_support.h\n'}
+[4.044447] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_pos_vel_eff__functions.h\n'}
+[4.051105] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_pos_vel_eff__struct.h\n'}
+[4.057915] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_pos_vel_eff__type_support.h\n'}
+[4.064685] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_position__functions.h\n'}
+[4.071267] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_position__struct.h\n'}
+[4.077892] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_position__type_support.h\n'}
+[4.084790] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_velocity__functions.h\n'}
+[4.091745] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_velocity__struct.h\n'}
+[4.098657] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_velocity__type_support.h\n'}
+[4.105444] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/leap_effort.h\n'}
+[4.109115] (-) TimerEvent: {}
+[4.111961] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/leap_pos_vel_eff.h\n'}
+[4.118630] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/leap_position.h\n'}
+[4.125092] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/leap_velocity.h\n'}
+[4.131848] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/environment/library_path.sh\n'}
+[4.138653] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/environment/library_path.dsv\n'}
+[4.145785] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.152719] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_effort__rosidl_typesupport_fastrtps_c.h\n'}
+[4.159505] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_pos_vel_eff__rosidl_typesupport_fastrtps_c.h\n'}
+[4.166347] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_position__rosidl_typesupport_fastrtps_c.h\n'}
+[4.172854] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_velocity__rosidl_typesupport_fastrtps_c.h\n'}
+[4.180066] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.186838] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_effort__builder.hpp\n'}
+[4.193661] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_effort__struct.hpp\n'}
+[4.200350] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_effort__traits.hpp\n'}
+[4.206461] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_effort__type_support.hpp\n'}
+[4.209294] (-) TimerEvent: {}
+[4.212617] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_pos_vel_eff__builder.hpp\n'}
+[4.219337] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_pos_vel_eff__struct.hpp\n'}
+[4.225903] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_pos_vel_eff__traits.hpp\n'}
+[4.232764] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_pos_vel_eff__type_support.hpp\n'}
+[4.239666] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_position__builder.hpp\n'}
+[4.246517] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_position__struct.hpp\n'}
+[4.253098] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_position__traits.hpp\n'}
+[4.259854] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_position__type_support.hpp\n'}
+[4.266726] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_velocity__builder.hpp\n'}
+[4.273652] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_velocity__struct.hpp\n'}
+[4.280612] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_velocity__traits.hpp\n'}
+[4.287682] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_velocity__type_support.hpp\n'}
+[4.294070] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/leap_effort.hpp\n'}
+[4.300798] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/leap_pos_vel_eff.hpp\n'}
+[4.307831] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/leap_position.hpp\n'}
+[4.309495] (-) TimerEvent: {}
+[4.314519] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/leap_velocity.hpp\n'}
+[4.321427] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.327987] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_effort__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.334653] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_pos_vel_eff__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.341621] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.348467] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_velocity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.355588] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.362299] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_effort__rosidl_typesupport_introspection_c.h\n'}
+[4.368933] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_pos_vel_eff__rosidl_typesupport_introspection_c.h\n'}
+[4.375860] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_position__rosidl_typesupport_introspection_c.h\n'}
+[4.382879] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_velocity__rosidl_typesupport_introspection_c.h\n'}
+[4.390086] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_effort__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.396884] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_pos_vel_eff__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.402856] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.409739] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/include/leap_hand/leap_hand/srv/detail/leap_velocity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.409805] (-) TimerEvent: {}
+[4.416734] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/environment/pythonpath.sh\n'}
+[4.423616] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/environment/pythonpath.dsv\n'}
+[4.430529] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.437099] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.443797] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.450774] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.458213] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/__init__.py\n'}
+[4.464979] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/_leap_hand_s.ep.rosidl_typesupport_c.c\n'}
+[4.471919] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/_leap_hand_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.478830] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/_leap_hand_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.485808] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/leap_hand_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.492749] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/leap_hand_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.499651] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/leap_hand_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.506694] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/libleap_hand__rosidl_generator_py.so\n'}
+[4.509986] (-) TimerEvent: {}
+[4.513328] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv/__init__.py\n'}
+[4.519945] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv/_leap_effort.py\n'}
+[4.526838] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv/_leap_effort_s.c\n'}
+[4.533737] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv/_leap_pos_vel_eff.py\n'}
+[4.540607] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv/_leap_pos_vel_eff_s.c\n'}
+[4.547176] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv/_leap_position.py\n'}
+[4.553960] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv/_leap_position_s.c\n'}
+[4.560902] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv/_leap_velocity.py\n'}
+[4.567808] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv/_leap_velocity_s.c\n'}
+[4.575057] (leap_hand) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/leap_hand_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.575122] (leap_hand) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/leap_hand_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.575251] (leap_hand) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/leap_hand_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.575464] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapVelocity.idl\n'}
+[4.582276] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapPosition.idl\n'}
+[4.588997] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapEffort.idl\n'}
+[4.595905] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapPosVelEff.idl\n'}
+[4.602870] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapVelocity.srv\n'}
+[4.609759] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapVelocity_Request.msg\n'}
+[4.610043] (-) TimerEvent: {}
+[4.616662] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapVelocity_Response.msg\n'}
+[4.623739] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapPosition.srv\n'}
+[4.630563] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapPosition_Request.msg\n'}
+[4.637062] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapPosition_Response.msg\n'}
+[4.643983] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapEffort.srv\n'}
+[4.651073] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapEffort_Request.msg\n'}
+[4.658135] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapEffort_Response.msg\n'}
+[4.664919] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapPosVelEff.srv\n'}
+[4.671721] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapPosVelEff_Request.msg\n'}
+[4.678503] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/srv/LeapPosVelEff_Response.msg\n'}
+[4.684850] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/ament_index/resource_index/package_run_dependencies/leap_hand\n'}
+[4.691779] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/ament_index/resource_index/parent_prefix_path/leap_hand\n'}
+[4.698600] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/environment/ament_prefix_path.sh\n'}
+[4.705289] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/environment/ament_prefix_path.dsv\n'}
+[4.710235] (-) TimerEvent: {}
+[4.712040] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/environment/path.sh\n'}
+[4.719057] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/environment/path.dsv\n'}
+[4.725824] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/local_setup.bash\n'}
+[4.732808] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/local_setup.sh\n'}
+[4.739827] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/local_setup.zsh\n'}
+[4.746925] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/local_setup.dsv\n'}
+[4.753786] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/package.dsv\n'}
+[4.760862] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/ament_index/resource_index/packages/leap_hand\n'}
+[4.767951] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/rosidl_cmake-extras.cmake\n'}
+[4.775005] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.781786] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.788825] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.795820] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.802742] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.809321] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.810419] (-) TimerEvent: {}
+[4.815499] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/leap_handConfig.cmake\n'}
+[4.822158] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/leap_handConfig-version.cmake\n'}
+[4.829022] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/package.xml\n'}
+[4.836046] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/leap_hand/leaphand_node.py\n'}
+[4.842975] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/leap_hand/ros2_example.py\n'}
+[4.850230] (leap_hand) StdoutLine: {'line': b'-- Symlinking: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/launch/launch_leap.py\n'}
+[4.857076] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_generator_c.so\n'}
+[4.857253] (leap_hand) StdoutLine: {'line': b'-- Set runtime path of "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_generator_c.so" to ""\n'}
+[4.857289] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_typesupport_fastrtps_c.so\n'}
+[4.857594] (leap_hand) StdoutLine: {'line': b'-- Set runtime path of "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.857656] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.857835] (leap_hand) StdoutLine: {'line': b'-- Set runtime path of "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.857892] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_typesupport_introspection_c.so\n'}
+[4.858096] (leap_hand) StdoutLine: {'line': b'-- Set runtime path of "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.858154] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_typesupport_c.so\n'}
+[4.858374] (leap_hand) StdoutLine: {'line': b'-- Set runtime path of "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_typesupport_c.so" to ""\n'}
+[4.858436] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_typesupport_introspection_cpp.so\n'}
+[4.858710] (leap_hand) StdoutLine: {'line': b'-- Set runtime path of "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.858774] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_typesupport_cpp.so\n'}
+[4.858944] (leap_hand) StdoutLine: {'line': b'-- Set runtime path of "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_typesupport_cpp.so" to ""\n'}
+[4.896143] (leap_hand) StdoutLine: {'line': b"Listing '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand'...\n"}
+[4.896219] (leap_hand) StdoutLine: {'line': b"Compiling '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/__init__.py'...\n"}
+[4.896249] (leap_hand) StdoutLine: {'line': b"Listing '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv'...\n"}
+[4.896277] (leap_hand) StdoutLine: {'line': b"Compiling '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv/__init__.py'...\n"}
+[4.896303] (leap_hand) StdoutLine: {'line': b"Compiling '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv/_leap_effort.py'...\n"}
+[4.896324] (leap_hand) StdoutLine: {'line': b"Compiling '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv/_leap_pos_vel_eff.py'...\n"}
+[4.896347] (leap_hand) StdoutLine: {'line': b"Compiling '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv/_leap_position.py'...\n"}
+[4.896368] (leap_hand) StdoutLine: {'line': b"Compiling '/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/local/lib/python3.10/dist-packages/leap_hand/srv/_leap_velocity.py'...\n"}
+[4.900626] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_generator_py.so\n'}
+[4.900909] (leap_hand) StdoutLine: {'line': b'-- Set runtime path of "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/lib/libleap_hand__rosidl_generator_py.so" to ""\n'}
+[4.900969] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/export_leap_hand__rosidl_generator_cExport.cmake\n'}
+[4.901067] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/export_leap_hand__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.901243] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/export_leap_hand__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.901306] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/export_leap_hand__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.901454] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/export_leap_hand__rosidl_generator_cppExport.cmake\n'}
+[4.901611] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/export_leap_hand__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.901781] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/export_leap_hand__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.901851] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/leap_hand__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.901992] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/leap_hand__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.902055] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/leap_hand__rosidl_typesupport_cExport.cmake\n'}
+[4.902104] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/leap_hand__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.902199] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/leap_hand__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.902331] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/leap_hand__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.902461] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/leap_hand__rosidl_typesupport_cppExport.cmake\n'}
+[4.902582] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/leap_hand__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.902710] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/export_leap_hand__rosidl_generator_pyExport.cmake\n'}
+[4.902829] (leap_hand) StdoutLine: {'line': b'-- Installing: /home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/install/leap_hand/share/leap_hand/cmake/export_leap_hand__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.904689] (leap_hand) CommandEnded: {'returncode': 0}
+[4.910698] (-) TimerEvent: {}
+[4.935187] (leap_hand) JobEnded: {'identifier': 'leap_hand', 'rc': 0}
+[4.935682] (-) EventReactorShutdown: {}

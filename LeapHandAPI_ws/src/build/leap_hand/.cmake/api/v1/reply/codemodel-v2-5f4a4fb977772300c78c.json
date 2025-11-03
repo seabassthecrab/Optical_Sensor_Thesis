@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f160b06017b080a58cc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "leap_hand__py",
+					"jsonFile" : "directory-leap_hand__py-891a2353db585bdaeb3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand/leap_hand__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "leap_hand",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_leap_hand_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_leap_hand_egg-b50524c37923ccbe5c54.json",
+					"name" : "ament_cmake_python_build_leap_hand_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_leap_hand::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_leap_hand-7058afd4b6b59d4e506a.json",
+					"name" : "ament_cmake_python_symlink_leap_hand",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_hand::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_hand-fb10c12eff2db471f807.json",
+					"name" : "leap_hand",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_hand__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_hand__cpp-b8ad8a9cf4f37c51f6e2.json",
+					"name" : "leap_hand__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "leap_hand__py::@60ce8a36969963afabea",
+					"jsonFile" : "target-leap_hand__py-26bc7d97a61082bc2e2e.json",
+					"name" : "leap_hand__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_hand__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_hand__rosidl_generator_c-f73696de688f54ed83b7.json",
+					"name" : "leap_hand__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_hand__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_hand__rosidl_generator_py-30257e5ec96f4500a5c0.json",
+					"name" : "leap_hand__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_hand__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_hand__rosidl_typesupport_c-d113f44de9b10035fdf0.json",
+					"name" : "leap_hand__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_hand__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_hand__rosidl_typesupport_c__pyext-044434f3407d0137610e.json",
+					"name" : "leap_hand__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_hand__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_hand__rosidl_typesupport_cpp-4bcbc426bb8448c26aa6.json",
+					"name" : "leap_hand__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_hand__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_hand__rosidl_typesupport_fastrtps_c-ee42f191a2e4499199d8.json",
+					"name" : "leap_hand__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_hand__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_hand__rosidl_typesupport_fastrtps_c__pyext-7996a74784b1b1fe3cef.json",
+					"name" : "leap_hand__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_hand__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_hand__rosidl_typesupport_fastrtps_cpp-22d2ffcce423dd892187.json",
+					"name" : "leap_hand__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_hand__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_hand__rosidl_typesupport_introspection_c-7961d62fae38f9b57f84.json",
+					"name" : "leap_hand__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_hand__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_hand__rosidl_typesupport_introspection_c__pyext-28033432dc3a7110c79b.json",
+					"name" : "leap_hand__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_hand__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_hand__rosidl_typesupport_introspection_cpp-66f1ec7e5d58ed0a0eef.json",
+					"name" : "leap_hand__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_hand_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_hand_uninstall-af414d06f7ff3a3478bd.json",
+					"name" : "leap_hand_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-60f877ab084ff515162c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand",
+		"source" : "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/ros2_module"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand/rosidl_generator_py/leap_hand/srv/_leap_pos_vel_eff_s.c

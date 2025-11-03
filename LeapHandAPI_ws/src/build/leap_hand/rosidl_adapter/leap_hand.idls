@@ -1,0 +1,4 @@
+/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand/rosidl_adapter/leap_hand:srv/LeapVelocity.idl
+/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand/rosidl_adapter/leap_hand:srv/LeapPosition.idl
+/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand/rosidl_adapter/leap_hand:srv/LeapEffort.idl
+/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand/rosidl_adapter/leap_hand:srv/LeapPosVelEff.idl

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand/rosidl_generator_py/leap_hand/leap_hand_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "leap_hand__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/leap_hand")

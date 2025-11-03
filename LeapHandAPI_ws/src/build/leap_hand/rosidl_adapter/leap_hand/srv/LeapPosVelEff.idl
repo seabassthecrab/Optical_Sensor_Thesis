@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from leap_hand/srv/LeapPosVelEff.srv
+// generated code does not contain a copyright notice
+
+
+module leap_hand {
+  module srv {
+    struct LeapPosVelEff_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct LeapPosVelEff_Response {
+      sequence<double> position;
+
+      sequence<double> velocity;
+
+      sequence<double> effort;
+    };
+  };
+};

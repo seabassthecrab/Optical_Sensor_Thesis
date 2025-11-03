@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "leap_hand__py",
+		"source" : "/home/hikikomori/Project/Robotic_work/LeapHandAPI_ws/src/build/leap_hand/leap_hand__py"
+	}
+}
